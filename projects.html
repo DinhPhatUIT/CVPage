@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dự án đã tham dự</title>
+  <meta name="color-scheme" content="light">
+  <link rel="preload" href="assets/style.css" as="style">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a href="#main" class="skip">Bỏ qua điều hướng & tới nội dung</a>
+<header class="navbar" role="banner">
+  <div class="container row">
+    <a class="brand" href="index.html" aria-label="Về trang chủ">📸 <span>Portfolio</span></a>
+    <nav class="nav" aria-label="Điều hướng chính">
+      <a href="index.html">Info</a>
+      <a href="projects.html">Dự án</a>
+      <a href="experience.html">Kinh nghiệm</a>
+      <a href="hobbies.html">Sở thích</a>
+      <a href="skills.html">Thế mạnh</a>
+      <a href="books.html">Sách</a>
+      <a href="certs.html">Chứng chỉ</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+<section class="section">
+  <div class="container">
+    <header>
+      <h1>Dự án đã tham dự</h1>
+      <p class="lead">Tối thiểu 3 dự án; mỗi dự án gồm tên, mô tả ngắn, vai trò, công nghệ, link.</p>
+    </header>
+    <div class="grid grid-3">
+      
+        <article class="card">
+          <div class="card-body">
+            <h3 style="margin:0;font-size:1.1rem;font-weight:700">EVN FraudGuard</h3>
+            <p style="margin:.25rem 0;color:var(--muted)">Vai trò: ML Engineer</p>
+            <p style="margin:.5rem 0">Mô hình phát hiện gian lận điện năng với pAUC tối ưu cho vùng FPR thấp; pipeline tự động hoá training & scoring.</p>
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap"><span class="badge">Python</span> <span class="badge">CatBoost</span> <span class="badge">SMOTENC</span> <span class="badge">Airflow</span> <span class="badge">SQL Server</span></div>
+            <p style="margin-top:.75rem"><a class="btn" href="https://example.com/evn-fraudguard">🔗 Xem chi tiết</a></p>
+          </div>
+        </article>
+        
+        <article class="card">
+          <div class="card-body">
+            <h3 style="margin:0;font-size:1.1rem;font-weight:700">Delivery Insight DW</h3>
+            <p style="margin:.25rem 0;color:var(--muted)">Vai trò: Data Engineer</p>
+            <p style="margin:.5rem 0">Thiết kế kho dữ liệu vận chuyển (Dim/Fact), báo cáo SLA, tồn kho và hiệu suất shipper; tối ưu ETL bằng Lookup & CDC.</p>
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap"><span class="badge">SSIS</span> <span class="badge">SQL Server</span> <span class="badge">Dim/Fact</span> <span class="badge">Power BI</span></div>
+            <p style="margin-top:.75rem"><a class="btn" href="https://example.com/delivery-insight">🔗 Xem chi tiết</a></p>
+          </div>
+        </article>
+        
+        <article class="card">
+          <div class="card-body">
+            <h3 style="margin:0;font-size:1.1rem;font-weight:700">Tour Planner</h3>
+            <p style="margin:.25rem 0;color:var(--muted)">Vai trò: Full‑stack (học tập)</p>
+            <p style="margin:.5rem 0">Ứng dụng quản lý Tour: thêm tour/điểm DL, in hoá đơn PDF; thủ tục lưu trữ (SP) cho CRUD và kiểm tra ràng buộc.</p>
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap"><span class="badge">Java Swing</span> <span class="badge">Oracle PL/SQL</span> <span class="badge">JasperReports</span></div>
+            <p style="margin-top:.75rem"><a class="btn" href="https://example.com/tour-planner">🔗 Xem chi tiết</a></p>
+          </div>
+        </article>
+        
+    </div>
+  </div>
+</section>
+
+</main>
+<script src="assets/script.js" defer></script>
+</body>
+</html>
